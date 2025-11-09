@@ -64,14 +64,14 @@ gemini extensions install https://github.com/upstash/context7
 3. 토큰 생성 후 `/.gemini/.env` 파일에 추가:
 
 ```bash
-GITHUB_TOKEN=your_github_pat_here
+GITHUB_MCP_PAT=your_github_pat_here
 ```
 
 ##### 최종 .env 파일 예시
 
 ```bash
 # /.gemini/.env
-GITHUB_TOKEN=your_github_pat_here
+GITHUB_MCP_PAT=your_github_pat_here
 ```
 
 ### 3. 의존성 설치
